@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(46, 46, 46);
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.timediv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Inter Tight', sans-serif;
+  vertical-align: center;
+  font-size: 52px;
+}

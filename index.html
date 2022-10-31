@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>simpleclock</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="timediv">
+            <h1 class="timetext" id="current-time"></h1>
+        </div>
+        <script>
+            let time = document.getElementById("current-time");
+
+
+            setInterval(() =>{
+                let d = new Date();
+                time.innerHTML = d.toLocaleTimeString();
+            },1000)
+
+        </script>
+    </body>
+</html>
